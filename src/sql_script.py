@@ -28,10 +28,11 @@ def create_branch_table(connection):
                         branch_id INT IDENTITY(1,1) PRIMARY KEY,
                         branch_location VARCHAR(100) NOT NULL
                         )'''
-            cursor.execute(sql)
+            cursor.execute(sql) 
             connection.commit()
     except Exception as e:
         print(e)
+        #this is a comment
 
 def create_transaction_table(connection):
     try:

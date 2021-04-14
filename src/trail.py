@@ -205,7 +205,7 @@ def convert_branch_tuple_to_dict(joint_two):
                         
                         }
         branch_id_loc.append(new_productss)
-    return branch_id_loc  
+    return branch_id_loc   
 
 def branch_id_transaction(branch_id_loc, list_of_orders_with_branch):
     corrected_branch_id = []

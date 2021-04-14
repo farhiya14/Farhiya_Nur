@@ -2,6 +2,9 @@
 
 # Before storing our data we must design a schema for it so that we can create it in our database.
 
+## what is normalisation?
+- The process of efficiently organising data in a database, in order to reduce data redundancy and improve data integrity.
+
 ## User Story
 
 > **As a** product owner
@@ -19,15 +22,15 @@ transaction_id|date_time|transaction_total|branch_id|
 
 ## Table: basket
 
-basket_id |product_id|transaction_id|
-    1     |     1    |     1        |
-    1     |     2    |     1        |
-    1     |     1    |     1        |
-    2     |     3    |     2        |
-    3     |     4    |     3        |
-    3     |     5    |     3        |
-    3     |     6    |     3        |
-    3     |     7    |     3        |
+product_id|transaction_id|
+     1    |     1        |
+     2    |     1        |
+     1    |     1        |
+     3    |     2        |
+     4    |     3        |
+     5    |     3        |
+     6    |     3        |
+     7    |     3        |
 
 
 

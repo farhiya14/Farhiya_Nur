@@ -28,7 +28,7 @@ def extract_and_remove_sensitive_data(file):
     except Exception as error:
         print("An error occurred: " + str(error))
     return data
-
+ 
 data_2 = (extract_and_remove_sensitive_data(file))
 
 def cleaning(data_2):

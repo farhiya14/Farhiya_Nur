@@ -12,7 +12,7 @@ close_connection()
 
 print("Your tables have been created successfully")
 
-from src.trail import *
+from src.trail import * 
 
 # connection = create_db_connection()            
 data = extract_and_remove_sensitive_data()

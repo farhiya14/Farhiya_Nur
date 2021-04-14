@@ -8,4 +8,4 @@ def create_db_connection():
                     host="172.18.0.3", 
                     port="5432"
                     )
-    return connection
+    return connection 

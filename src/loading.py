@@ -40,9 +40,10 @@ def insert_into_product_table(list_not_duplicated_var, connection):
                 cursor.execute("INSERT INTO product (product_name, product_size, product_price) VALUES (%s, %s, %s)",(row['product_name'], row['product_size'], row['product_price']))
                 connection.commit()
     except Exception as e:
-        print("exception!!", e)
+        print("exception!!", e) 
         
-        
+         
+#this is a comment        
 def insert_into_branch_table(branch_location_w_par, connection):
     branch_locations = branch_location_w_par
     # print(branch_locations)
